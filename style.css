@@ -94,11 +94,10 @@ body {
     top: 100%;
 }
 
-#main_page {
+#main_page_part1 {
     width: 100%;
     height: 70vmin;
     margin-top: 3%;
-
     background-color: #d3d3d2;
     box-shadow: 1vmin 1vmin 1vmin darkgrey;
     align-items: center;
@@ -119,7 +118,105 @@ body {
     margin-top: 1vmin;
 }
 
+#text button {
+        width: 23.3vmin;
+        height: 7.3vmin;
+        background-color: #363739;
+        border: .3vmin solid white;
+        text-align: center;
+        font-size: 2.5vmin;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-weight: 550;
+        position: relative;
+        transition-duration: .3s;
+        margin-top: 5vmin;
+}
+
+#text button:hover {
+    background-color: grey;
+    color: black;
+    border-radius: 2vmin;
+    cursor: pointer;
+}
+
 img {
     width: 70vmin;
     margin-top: 35vmin;
+}
+
+#main_page_part2 {
+    width: 100%;
+    height: 30vmin;
+    margin-top: 5%;
+    background-color: #111111;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+#socials {
+    margin-left: 5%;
+}
+
+#socials h1 {
+    color: white;
+    font-size: 2vmin;
+    font-style: oblique;
+    margin-bottom: 10%;
+}
+
+#socials ul {
+    list-style: none;
+    display: flex;
+}
+
+#socials ul li {
+    position: relative;
+    padding: 10px 30px;
+}
+
+#socials ul li a {
+    text-decoration: none;
+    font-size: 2.5vmin;
+    color: white;
+    transition: all .3s;
+}
+
+#socials ul li a:hover {
+    font-size: 3.5vmin;
+}
+
+#contacts h1 {
+    color: white;
+    font-size: 2vmin;
+    font-style: oblique;
+    margin-bottom: 10%;
+}
+
+#contacts ul {
+    list-style: none;
+    margin: 1.4vmin;
+    display: block;
+}
+
+#contacts ul li{
+    margin: 1.5vmin;
+    text-decoration: none;
+    color: white;
+    font-size: 2vmin;
+}
+
+#nike img {
+    width: 20vmin;
+    margin-top: 0;
+    margin-right: 6vmin;
+}
+
+#nike h4 {
+    font-size: 1.2vmin;
+    color: white;
+    position: absolute;
+    margin-top: 3%;
+    margin-right: 0%
 }
