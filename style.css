@@ -16,3 +16,57 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+#logo {
+    color: white;
+    font-size: 4.5vmin;
+    padding-left: 5%;
+}
+
+#logo span {
+    color: #0453b3;
+}
+
+#menu_bar ul {
+    list-style: none;
+    display: flex;
+    padding-right: 5%;
+}
+
+#menu_bar ul li {
+    position: relative;
+    padding: 10px 30px;
+}
+
+#menu_bar ul li a {
+    text-decoration: none;
+    font-size: 2.5vmin;
+    color: white;
+    transition: all .3s;
+}
+
+#menu_bar ul li a:hover {
+    color: #0453b3;
+}
+
+#clothing_menu ul {
+    margin: 1,.4vmin;
+    display: block;
+}
+
+#clothing_menu ul li {
+    width: 16vmin;
+    margin: 1.5vmin;
+}
+
+#clothing_menu{
+    display: none;
+}
+
+#menu_bar ul li:hover #clothing_menu {
+    background-color: #141d2a;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 100%;
+}
