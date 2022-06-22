@@ -55,7 +55,7 @@ body {
 }
 
 #clothing_menu ul li {
-    width: 16vmin;
+    width: 19vmin;
     margin: 1.5vmin;
 }
 
@@ -216,13 +216,13 @@ img {
     margin-right: 0%
 }
 
-#tech1 {
+#clothing1 {
     position: absolute;
     top: 22%;
     margin-left: 4%;
 }
 
-#tech1 img {
+#clothing1 img {
     width: 55vmin;
     border: 1px solid black;
     border-radius: 2vmin;
@@ -230,7 +230,7 @@ img {
     padding-top: 0vmin;
 }
 
-#tech2 img {
+#clothing2 img {
     width: 55vmin;
     border: 1px solid black;
     border-radius: 2vmin;
@@ -238,13 +238,13 @@ img {
     padding-top: 0vmin;
 }
 
-#tech2 {
+#clothing2 {
     position: absolute;
     top: 22%;
     margin-left: 36.4%;
 }
 
-#tech3 img {
+#clothing3 img {
     width: 55vmin;
     border: 1px solid black;
     border-radius: 2vmin;
@@ -252,79 +252,79 @@ img {
     padding-top: 0vmin;
 }
 
-#tech3 {
+#clothing3 {
     position: absolute;
     top: 22%;
     margin-left: 69%;
 }
 
-#tech4 img {
+#clothing4 img {
     width: 55vmin;
     border: 1px solid black;
     border-radius: 2vmin;
 }
 
-#tech4 {
+#clothing4 {
     position: absolute;
     padding-top: 66vmin;
     margin-left: 4%;
 }
 
-#tech5 img {
+#clothing5 img {
     width: 55vmin;
     border: 1px solid black;
     border-radius: 2vmin;
 }
 
-#tech5 {
+#clothing5 {
     position: absolute;
     padding-top: 66vmin;
     margin-left: 36.4%;
 }
 
-#tech6 img {
+#clothing6 img {
     width: 55vmin;
     border: 1px solid black;
     border-radius: 2vmin;
 }
 
-#tech6 {
+#clothing6 {
     position: absolute;
     padding-top: 66vmin;
     margin-left: 69%;
 }
 
-#tech7 img {
+#clothing7 img {
     width: 55vmin;
     border: 1px solid black;
     border-radius: 2vmin;
 }
 
-#tech7 {
+#clothing7 {
     position: absolute;
     padding-top: 157vmin;
     margin-left: 4%;
 }
 
-#tech8 img {
+#clothing8 img {
     width: 55vmin;
     border: 1px solid black;
     border-radius: 2vmin;
 }
 
-#tech8 {
+#clothing8 {
     position: absolute;
     padding-top: 157vmin;
     margin-left: 36.4%;
 }
 
-#tech9 img {
+#clothing9 img {
     width: 55vmin;
     border: 1px solid black;
     border-radius: 2vmin;
 }
 
-#tech9 {
+#clothing9 {
     position: absolute;
     padding-top: 157vmin;
     margin-left: 69%;
