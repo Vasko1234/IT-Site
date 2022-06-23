@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -121,18 +122,18 @@ body {
 }
 
 #text button {
-        width: 23.3vmin;
-        height: 7.3vmin;
-        background-color: #363739;
-        border: .3vmin solid white;
-        text-align: center;
-        font-size: 2.5vmin;
-        font-family: 'Courier New', Courier, monospace;
-        color: white;
-        font-weight: 550;
-        position: relative;
-        transition-duration: .3s;
-        margin-top: 5vmin;
+    width: 23.3vmin;
+    height: 7.3vmin;
+    background-color: #363739;
+    border: .3vmin solid white;
+    text-align: center;
+    font-size: 2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 550;
+    position: relative;
+    transition-duration: .3s;
+    margin-top: 5vmin;
 }
 
 img {
@@ -347,4 +348,161 @@ i {
     align-items: center;
     justify-content: space-between;
     display: flex;
+}
+
+#clothing1 a button{
+    width: 13.3vmin;
+    height: 3.3vmin;
+    background-color: #363739;
+    border: .3vmin solid black;
+    text-align: center;
+    font-size: 2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 550;
+    z-index: 1;
+    position: absolute;
+    transition-duration: .3s;
+}
+
+#clothing2 a button{
+    width: 13.3vmin;
+    height: 3.3vmin;
+    background-color: #363739;
+    border: .3vmin solid black;
+    text-align: center;
+    font-size: 2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 550;
+    z-index: 1;
+    position: absolute;
+    transition-duration: .3s;
+}
+
+#clothing3 a button{
+    width: 13.3vmin;
+    height: 3.3vmin;
+    background-color: #363739;
+    border: .3vmin solid black;
+    text-align: center;
+    font-size: 2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 550;
+    z-index: 1;
+    position: absolute;
+    transition-duration: .3s;
+}
+
+#clothing4 a button{
+    width: 13.3vmin;
+    height: 3.3vmin;
+    background-color: #363739;
+    border: .3vmin solid black;
+    text-align: center;
+    font-size: 2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 550;
+    z-index: 1;
+    position: absolute;
+    transition-duration: .3s;
+}
+
+#clothing5 a button{
+    width: 13.3vmin;
+    height: 3.3vmin;
+    background-color: #363739;
+    border: .3vmin solid black;
+    text-align: center;
+    font-size: 2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 550;
+    z-index: 1;
+    position: absolute;
+    transition-duration: .3s;
+}
+
+#clothing6 a button{
+    width: 13.3vmin;
+    height: 3.3vmin;
+    background-color: #363739;
+    border: .3vmin solid black;
+    text-align: center;
+    font-size: 2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 550;
+    z-index: 1;
+    position: absolute;
+    transition-duration: .3s;
+}
+
+#clothing7 a button{
+    width: 13.3vmin;
+    height: 3.3vmin;
+    background-color: #363739;
+    border: .3vmin solid black;
+    text-align: center;
+    font-size: 2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 550;
+    transition-duration: .3s;
+}
+
+#clothing8 a button{
+    width: 13.3vmin;
+    height: 3.3vmin;
+    background-color: #363739;
+    border: .3vmin solid black;
+    text-align: center;
+    font-size: 2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 550;
+    transition-duration: .3s;
+}
+
+#clothing9 a button{
+    width: 13.3vmin;
+    height: 3.3vmin;
+    background-color: #363739;
+    border: .3vmin solid black;
+    text-align: center;
+    font-size: 2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 550;
+    transition-duration: .3s;
+}
+
+#aboutUs ul {
+    list-style: none;
+    margin: .4vmin;
+    margin-top: 1.5vmin;
+    display: block;
+}
+
+#aboutUs ul li {
+    margin: .5vmin;
+    width: 35vmin;
+    text-decoration: none;
+    color: white;
+    font-size: 2vmin;
+}
+
+#aboutUs {
+    display: none;
+}
+
+#menu_bar ul li:hover #aboutUs {
+    background-color: #141d2a;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    left: 0;
+    top: 100%;
 }
